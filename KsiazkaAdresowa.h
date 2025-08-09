@@ -13,4 +13,6 @@ public:
     };
     void rejestracjaUzytkownika();
     void wypiszWszystkichUzytkownikow();
+    void logowanieUzytkownika();
+    void pobierzIdZalogowanegoUzytkownika(); //tymczasowo na potrzeby testów
 };
