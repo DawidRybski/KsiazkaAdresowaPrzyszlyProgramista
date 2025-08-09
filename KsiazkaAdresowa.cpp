@@ -15,8 +15,8 @@ void KsiazkaAdresowa::logowanieUzytkownika()
     uzytkownikMenedzer.logowanieUzytkownika();
 }
 
-void KsiazkaAdresowa::pobierzIdZalogowanegoUzytkownika()
+void KsiazkaAdresowa::zmianaHaslaZalogowanegoUzytkownika()
 {
-    cout << uzytkownikMenedzer.pobierzIdZalogowanegoUzytkownika();
+    uzytkownikMenedzer.zmianaHaslaZalogowanegoUzytkownika();
 }
 
