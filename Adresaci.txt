@@ -1,0 +1,8 @@
+
+16127761|1|Dawid|Rybski|781686906|Dawid.rybski@gmail.com|Ul. paderewskiego 18/5|
+8591121|1|Dawid|Rybski|781686906|Dawid.rybski@gmail.com|Ul. paderewskiego 18/5|
+8591123|1|Kacper|Marcinski|605889223|Kacper.marcinski@gmail.com|Ul. gornikow 13/3|
+1|1|Dawid|Rybski|781686906|Dawid.rybski@gmail.com|Ul. paderewskiego 18/5|
+3|1|Kacper|Pastuszak|605102476|Kacper.pastuszak@gmail.com|Ul. gornikow 14/2|
+1|1|Dawid|Rybski|781686906|Dawid.rybski@gmail.com|Ul. paderewskiego 13/4|
+2|1|Marcin|Majchrzak|403223781|Marcin.majchrzak@gmail.com|Ul. darlowa 13|

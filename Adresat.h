@@ -23,13 +23,13 @@ public:
     void ustawEmail(string nowyEmail);
     void ustawAdres(string nowyAdres);
 
-    int Adresat::pobierzId();
-    int Adresat::pobierzIdUzytkownika();
-    string Adresat::pobierzImie();
-    string Adresat::pobierzNazwisko();
-    string Adresat::pobierzNumerTelefonu();
-    string Adresat::pobierzEmail();
-    string Adresat::pobierzAdres();
+    int pobierzId();
+    int pobierzIdUzytkownika();
+    string pobierzImie();
+    string pobierzNazwisko();
+    string pobierzNumerTelefonu();
+    string pobierzEmail();
+    string pobierzAdres();
 };
 
 #endif
