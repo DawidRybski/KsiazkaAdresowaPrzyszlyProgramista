@@ -20,11 +20,13 @@ class AdresatMenedzer
 
     Adresat podajDaneNowegoAdresata();
     PlikZAdresatami plikZAdresatami;
+    void wyswietlDaneAdresata(Adresat adresat);
 
 public:
     AdresatMenedzer(string nazwaPlikuZAdresatami) : plikZAdresatami(nazwaPlikuZAdresatami) {};
     int dodajAdresata();
     void ustawIdZalogowanegoUzytkownika(int idUzytkownikaPoZalogowaniu);
+    void wyswietlWszystkichAdresatow();
 };
 
 
