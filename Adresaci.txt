@@ -6,3 +6,5 @@
 3|1|Kacper|Pastuszak|605102476|Kacper.pastuszak@gmail.com|Ul. gornikow 14/2|
 1|1|Dawid|Rybski|781686906|Dawid.rybski@gmail.com|Ul. paderewskiego 13/4|
 2|1|Marcin|Majchrzak|403223781|Marcin.majchrzak@gmail.com|Ul. darlowa 13|
+1|1|Dawid|Rybski|781686906|Dawid.rybski@gmail.com|Ul. gornikow 13/3|
+2|1|Kacper|Maciaszek|605123567|Kacper.maciaszek@gmail.com|Ul. komornica 17/2|
