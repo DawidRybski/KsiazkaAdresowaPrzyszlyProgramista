@@ -1,10 +1,5 @@
-
-16127761|1|Dawid|Rybski|781686906|Dawid.rybski@gmail.com|Ul. paderewskiego 18/5|
-8591121|1|Dawid|Rybski|781686906|Dawid.rybski@gmail.com|Ul. paderewskiego 18/5|
-8591123|1|Kacper|Marcinski|605889223|Kacper.marcinski@gmail.com|Ul. gornikow 13/3|
 1|1|Dawid|Rybski|781686906|Dawid.rybski@gmail.com|Ul. paderewskiego 18/5|
-3|1|Kacper|Pastuszak|605102476|Kacper.pastuszak@gmail.com|Ul. gornikow 14/2|
-1|1|Dawid|Rybski|781686906|Dawid.rybski@gmail.com|Ul. paderewskiego 13/4|
-2|1|Marcin|Majchrzak|403223781|Marcin.majchrzak@gmail.com|Ul. darlowa 13|
-1|1|Dawid|Rybski|781686906|Dawid.rybski@gmail.com|Ul. gornikow 13/3|
-2|1|Kacper|Maciaszek|605123567|Kacper.maciaszek@gmail.com|Ul. komornica 17/2|
+2|2|Daniel|Olbryski|503221781|Daniel.olbryski@gmail.com|Ul. gliniana 7|
+3|2|Ryszard|Stygan|978 223 781|Ryszard.stygan@gmail.com|Ul. stokrotkowa 12|
+4|1|Janusz|Pory˜|607221832|Janusz.porys@gmail.com|Ul. golebiewska 17/8|
+5|1|Franciszek|Lupan|709226451|Franciszek.lupan@gmail.com|Ul. gwarna 27|
