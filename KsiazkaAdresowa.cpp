@@ -33,3 +33,9 @@ void KsiazkaAdresowa::wyswietlWszystkichAdresatow()
 {
     adresatMenedzer.wyswietlWszystkichAdresatow();
 }
+
+void KsiazkaAdresowa::wylogowanieUzytkownika()
+{
+    uzytkownikMenedzer.wylogowanieUzytkownika();
+    adresatMenedzer.wyczyscAdresatow();
+}
