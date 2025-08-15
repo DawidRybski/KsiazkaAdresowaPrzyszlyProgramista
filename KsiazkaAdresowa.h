@@ -19,4 +19,5 @@ public:
     void zmianaHaslaZalogowanegoUzytkownika();
     void dodajAdresata();
     void wyswietlWszystkichAdresatow();
+    void wylogowanieUzytkownika();
 };

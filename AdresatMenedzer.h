@@ -27,6 +27,7 @@ public:
     int dodajAdresata();
     void ustawIdZalogowanegoUzytkownika(int idUzytkownikaPoZalogowaniu);
     void wyswietlWszystkichAdresatow();
+    void wyczyscAdresatow();
 };
 
 
