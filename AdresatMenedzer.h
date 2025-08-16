@@ -14,7 +14,6 @@ using namespace std;
 
 class AdresatMenedzer
 {
-    int idOstatniegoAdresata = 0; // do zmiany po zaimplementowaniu wczytywania adresatów z pliku
     int idZalogowanegoUzytkownika;
     vector <Adresat> adresaci;
 

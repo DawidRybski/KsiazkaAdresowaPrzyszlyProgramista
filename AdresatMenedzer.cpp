@@ -42,7 +42,7 @@ Adresat AdresatMenedzer::podajDaneNowegoAdresata()
 void AdresatMenedzer::ustawIdZalogowanegoUzytkownika(int idUzytkownikaPoZalogowaniu)
 {
     idZalogowanegoUzytkownika = idUzytkownikaPoZalogowaniu;
-    idOstatniegoAdresata = plikZAdresatami.wczytajAdresatowZalogowanegoUzytkownikaZPliku(adresaci, idZalogowanegoUzytkownika);
+    plikZAdresatami.wczytajAdresatowZalogowanegoUzytkownikaZPliku(adresaci, idZalogowanegoUzytkownika);
 }
 
 void AdresatMenedzer::wyswietlWszystkichAdresatow()
