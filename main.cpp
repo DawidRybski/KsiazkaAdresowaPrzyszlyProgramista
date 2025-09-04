@@ -11,10 +11,11 @@ int main()
     ksiazkaAdresowa.wyswietlWszystkichAdresatow();
     ksiazkaAdresowa.wylogowanieUzytkownika();
     ksiazkaAdresowa.wyswietlWszystkichAdresatow();
+    ksiazkaAdresowa.dodajAdresata();
     ksiazkaAdresowa.logowanieUzytkownika();
     ksiazkaAdresowa.dodajAdresata();
     ksiazkaAdresowa.wyswietlWszystkichAdresatow();
-    ksiazkaAdresowa.zmianaHaslaZalogowanegoUzytkownika();
+//    ksiazkaAdresowa.zmianaHaslaZalogowanegoUzytkownika();
 
 
 

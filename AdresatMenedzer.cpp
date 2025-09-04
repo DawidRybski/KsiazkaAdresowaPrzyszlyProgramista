@@ -1,17 +1,19 @@
 #include "AdresatMenedzer.h"
 
-int AdresatMenedzer::dodajAdresata()
+void AdresatMenedzer::dodajAdresata()
 {
     Adresat adresat;
 
     system("cls");
-    cout << " >>> DODAWANIE NOWEGO ADRESATA <<<" << endl << endl;
+    cout << ">>> DODAWANIE NOWEGO ADRESATA <<<" << endl << endl;
     adresat = podajDaneNowegoAdresata();
 
     adresaci.push_back(adresat);
-    plikZAdresatami.dopiszAdresataDoPliku(adresat);
-
-    return plikZAdresatami.pobierzIdOstatniegoAdresata();
+    if (plikZAdresatami.dopiszAdresataDoPliku(adresat))
+        cout << "Nowy adresat zostal dodany" << endl;
+    else
+        cout << "Blad. Nie udalo sie dodac nowego adresata do pliku." << endl;
+    system("pause");
 }
 
 Adresat AdresatMenedzer::podajDaneNowegoAdresata()
@@ -19,7 +21,7 @@ Adresat AdresatMenedzer::podajDaneNowegoAdresata()
     Adresat adresat;
 
     adresat.ustawId(plikZAdresatami.pobierzIdOstatniegoAdresata() + 1);
-    adresat.ustawIdUzytkownika(idZalogowanegoUzytkownika);
+    adresat.ustawIdUzytkownika(ID_ZALOGOWANEGO_UZYTKOWNIKA);
 
     cout << "Podaj imie: ";
     adresat.ustawImie(MetodyPomocnicze::zamienPierwszaLitereNaDuzaAPozostaleNaMale(MetodyPomocnicze::wczytajLinie()));
@@ -37,12 +39,6 @@ Adresat AdresatMenedzer::podajDaneNowegoAdresata()
     adresat.ustawAdres(MetodyPomocnicze::zamienPierwszaLitereNaDuzaAPozostaleNaMale(MetodyPomocnicze::wczytajLinie()));
 
     return adresat;
-}
-
-void AdresatMenedzer::ustawIdZalogowanegoUzytkownika(int idUzytkownikaPoZalogowaniu)
-{
-    idZalogowanegoUzytkownika = idUzytkownikaPoZalogowaniu;
-    plikZAdresatami.wczytajAdresatowZalogowanegoUzytkownikaZPliku(adresaci, idZalogowanegoUzytkownika);
 }
 
 void AdresatMenedzer::wyswietlWszystkichAdresatow()
@@ -73,9 +69,4 @@ void AdresatMenedzer::wyswietlDaneAdresata(Adresat adresat)
     cout << "Numer telefonu:     " << adresat.pobierzNumerTelefonu() << endl;
     cout << "Email:              " << adresat.pobierzEmail() << endl;
     cout << "Adres:              " << adresat.pobierzAdres() << endl;
-}
-
-void AdresatMenedzer::wyczyscAdresatow()
-{
-    adresaci.clear();
 }
