@@ -9,3 +9,4 @@
 9|1|Hubert|Wrona|859 226 451|Hubert.wrona@gmail.com|Ul. je¾ycka|
 10|1|Tomasz|Holewa|456 123 421|Tomasz.holewa@gmail.com|Ul. legnicka 27|
 11|1|Kamil|Wilczak|607823145|Kamil.wilczak@gmail.com|Ul. zonkilowa 19|
+12|2|Marcin|Klawy|605723112|Marcin.klawy@gmail.com|Ul. gornicka 17/2|
