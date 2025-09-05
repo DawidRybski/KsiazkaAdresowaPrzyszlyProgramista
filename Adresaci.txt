@@ -10,3 +10,5 @@
 10|1|Tomasz|Holewa|456 123 421|Tomasz.holewa@gmail.com|Ul. legnicka 27|
 11|1|Kamil|Wilczak|607823145|Kamil.wilczak@gmail.com|Ul. zonkilowa 19|
 12|2|Marcin|Klawy|605723112|Marcin.klawy@gmail.com|Ul. gornicka 17/2|
+13|5|Marcin|Dagmar|604332123|Marcin.dagmar@gmail.com|Ul. azaliowa 14|
+14|2|Piotr|Sciezny|896534228|Piotr.sciezny@wp.pl|Ul. karmalowa 29|
