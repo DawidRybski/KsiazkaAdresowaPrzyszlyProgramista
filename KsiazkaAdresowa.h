@@ -26,6 +26,7 @@ public:
     void zmianaHaslaZalogowanegoUzytkownika();
     void dodajAdresata();
     void wyszukajAdresatowPoImieniu();
+    void wyszukajAdresatowPoNazwisku();
     void wyswietlWszystkichAdresatow();
     void wylogowanieUzytkownika();
     char wybierzOpcjeZMenuGlownego();
