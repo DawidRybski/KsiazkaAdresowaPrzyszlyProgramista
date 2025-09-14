@@ -39,6 +39,9 @@ int main()
             case '1':
                 ksiazkaAdresowa.dodajAdresata();
                 break;
+            case '2':
+                ksiazkaAdresowa.wyszukajAdresatowPoImieniu();
+                break;
             case '4':
                 ksiazkaAdresowa.wyswietlWszystkichAdresatow();
                 break;
@@ -53,14 +56,4 @@ int main()
     }
     return 0;
 
-//    ksiazkaAdresowa.wypiszWszystkichUzytkownikow();
-//    ksiazkaAdresowa.logowanieUzytkownika();
-//    ksiazkaAdresowa.wyswietlWszystkichAdresatow();
-//    ksiazkaAdresowa.wylogowanieUzytkownika();
-//    ksiazkaAdresowa.wyswietlWszystkichAdresatow();
-//    ksiazkaAdresowa.dodajAdresata();
-//    ksiazkaAdresowa.logowanieUzytkownika();
-//    ksiazkaAdresowa.dodajAdresata();
-//    ksiazkaAdresowa.wyswietlWszystkichAdresatow();
-//    ksiazkaAdresowa.zmianaHaslaZalogowanegoUzytkownika();
 }
