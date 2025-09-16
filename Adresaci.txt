@@ -3,12 +3,8 @@
 3|2|Ryszard|Stygan|978 223 781|Ryszard.stygan@gmail.com|Ul. stokrotkowa 12|
 4|1|Janusz|Pory˜|607221832|Janusz.porys@gmail.com|Ul. golebiewska 17/8|
 5|1|Franciszek|Lupan|709226451|Franciszek.lupan@gmail.com|Ul. gwarna 27|
-6|1|Patryk|Bobrak|792 228 421|Fsdgsdfgdf|Dsfasdfasd|
 7|1|Patryk|Waryk|412 342 562|Patryk.waryk@gmail.com|Ul. chmielewska 32|
 8|2|Pawel|Manas|506 347 213|Dsfasdf|Dfsgsdfg|
-9|1|Hubert|Wrona|859 226 451|Hubert.wrona@gmail.com|Ul. je¾ycka|
-10|1|Tomasz|Holewa|456 123 421|Tomasz.holewa@gmail.com|Ul. legnicka 27|
-11|1|Kamil|Wilczak|607823145|Kamil.wilczak@gmail.com|Ul. zonkilowa 19|
 12|2|Marcin|Klawy|605723112|Marcin.klawy@gmail.com|Ul. gornicka 17/2|
 13|5|Marcin|Dagmar|604332123|Marcin.dagmar@gmail.com|Ul. azaliowa 14|
-14|2|Piotr|Sciezny|896534228|Piotr.sciezny@wp.pl|Ul. karmalowa 29|
+14|2|Gabriel|Nawalka|560872391|Gabriel.nawalka@gmail.com|Ul. sawacka 18/5|
