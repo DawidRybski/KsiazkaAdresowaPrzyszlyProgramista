@@ -79,6 +79,17 @@ void KsiazkaAdresowa::usunAdresata()
     }
 }
 
+void KsiazkaAdresowa::edytujAdresata()
+{
+    if (uzytkownikMenedzer.czyUzytkownikJestZalogowany())
+        adresatMenedzer -> edytujAdresata();
+    else
+    {
+        cout << "Aby edytowac adresatow, nalezy najpierw sie zalogowac" << endl;
+        system("pause");
+    }
+}
+
 void KsiazkaAdresowa::wylogowanieUzytkownika()
 {
     uzytkownikMenedzer.wylogowanieUzytkownika();
@@ -115,6 +126,7 @@ char KsiazkaAdresowa::wybierzOpcjeZMenuUzytkownika()
     cout << "3. Wyszukaj po nazwisku" << endl;
     cout << "4. Wyswietl adresatow" << endl;
     cout << "5. Usun adresata" << endl;
+    cout << "6. Edytuj adresata" << endl;
     cout << "---------------------------" << endl;
     cout << "7. Zmien haslo" << endl;
     cout << "8. Wyloguj sie" << endl;

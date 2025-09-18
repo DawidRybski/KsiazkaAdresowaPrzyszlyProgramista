@@ -193,6 +193,53 @@ void PlikZAdresatami::usunWybranegoAdresataZPliku(int idAdresata)
     idOstatniegoAdresata = pobierzZPlikuIdOstatniegoAdresata();
 }
 
+void PlikZAdresatami::edytujAdresataWPliku(Adresat adresat, string liniaZDanymiAdresataOddzielonePionowymiKreskami)
+{
+    fstream odczytywanyPlikTekstowy, tymczasowyPlikTekstowy;
+    string wczytanaLinia = "";
+    bool czyPierwszaLinia = true;
+
+    odczytywanyPlikTekstowy.open(NAZWA_PLIKU_Z_ADRESATAMI.c_str(), ios::in);
+    tymczasowyPlikTekstowy.open("TymczasowyPlikZAdresatami", ios::out | ios::app);
+
+    if (odczytywanyPlikTekstowy.good() == true)
+    {
+        while (getline(odczytywanyPlikTekstowy, wczytanaLinia))
+        {
+            if (czyPierwszaLinia)
+            {
+                if (adresat.pobierzId() == pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(wczytanaLinia))
+                {
+                    tymczasowyPlikTekstowy << liniaZDanymiAdresataOddzielonePionowymiKreskami;
+                    czyPierwszaLinia = false;
+                }
+                else
+                {
+                    tymczasowyPlikTekstowy << wczytanaLinia;
+                    czyPierwszaLinia = false;
+                }
+            }
+            else
+            {
+                if (adresat.pobierzId() == pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(wczytanaLinia))
+                {
+                    tymczasowyPlikTekstowy << endl << liniaZDanymiAdresataOddzielonePionowymiKreskami;
+                }
+                else
+                {
+                    tymczasowyPlikTekstowy << endl << wczytanaLinia;
+                }
+            }
+
+        }
+        odczytywanyPlikTekstowy.close();
+        tymczasowyPlikTekstowy.close();
+
+        usunPlik(NAZWA_PLIKU_Z_ADRESATAMI);
+        zmienNazwePliku("TymczasowyPlikZAdresatami", NAZWA_PLIKU_Z_ADRESATAMI);
+    }
+}
+
 void PlikZAdresatami::usunPlik(string nazwaPlikuZRozszerzeniem)
 {
     if (remove(nazwaPlikuZRozszerzeniem.c_str()) == 0) {}
@@ -229,4 +276,15 @@ int PlikZAdresatami::pobierzZPlikuIdOstatniegoAdresata()
         idOstatniegoAdresata = pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(daneOstaniegoAdresataWPliku);
     }
     return idOstatniegoAdresata;
+}
+
+void PlikZAdresatami::zaktualizujDaneWybranegoAdresata(Adresat adresat)
+{
+    int numerLiniiEdytowanegoAdresata = 0;
+    string liniaZDanymiAdresata = "";
+
+    liniaZDanymiAdresata = zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(adresat);
+    edytujAdresataWPliku(adresat, liniaZDanymiAdresata);
+
+    cout << endl << "Dane zostaly zaktualizowane." << endl << endl;
 }
