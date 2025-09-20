@@ -8,3 +8,4 @@
 12|2|Marcin|Klawy|605723112|Marcin.klawy@gmail.com|ul. Kominka 28/4|
 13|5|Marcin|Dagmar|604332123|Marcin.dagmar@gmail.com|Ul. azaliowa 14|
 14|2|Gabriel|Nawalka|560872391|gabriel.nawalka27@gmail.com|Ul. sawacka 18/5|
+15|6|Tomasz|Klewa|790452313|Tomasz.klewa@gmail.com|Ul. kleczkowska 31/3|
